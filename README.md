@@ -1,20 +1,20 @@
-# SVENJSX
+#Universal-JSX 
 
-SVENJSX is a support tool for [Svenjs](https:/github.com/svenanders/svenjs). It allows you to write JSX syntax in your _render_ code, like this:
+Universal-JSX is allows you to write JSX syntax in your JavaScript code, like this:
 
 ```html
-var clickyComponent = Svenjs.createComponent({
+var clickyComponent = Universal.createComponent({
     initialState: {
         clicks: 0
     },
     render() {
-    let svenFunc = () =>{
+    let clickFunc = () =>{
       this.setState({clicks: this.state.clicks++ });
     }
     return (<div id="row">
         <div id="app">
             <h3>The Click App</h3>
-            <button onClick={svenFunc}>Why not click me?</button>
+            <button onClick={clickFunc}>Why not click me?</button>
         </div>
         <div id="time-travel">
             <h3>Click stats</h3>
@@ -27,6 +27,6 @@ var clickyComponent = Svenjs.createComponent({
 
 ## Related Modules
 
-* [svenjsx-loader](https://github.com/svenanders/svenjsx-loader) - Webpack loader for SVENJSX.
+* [universal-jsx-loader](https://github.com/svenanders/universal-jsx-loader) - Webpack loader for UniversalJS.
 
 ## ISC Licensed
