@@ -1,6 +1,6 @@
 {
   "name": "universal-jsx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A universal JSX compiler",
   "main": "main.js",
   "dependencies": {
