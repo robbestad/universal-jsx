@@ -17,7 +17,8 @@
   },
   "keywords": [
     "jsx",
-    "mithril"
+    "universaljs",
+    "universal-jsx"
   ],
   "author": "Sven A Robbestad <robbestad@gmail.com> (https://github.com/svenanders)",
   "repository": {
