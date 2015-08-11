@@ -1,0 +1,39 @@
+{
+  "name": "universal-jsx",
+  "version": "0.0.1",
+  "description": "A universal JSX compiler",
+  "main": "main.js",
+  "dependencies": {
+    "commoner": "^0.10.0",
+    "jstransform": "^10.1.0",
+    "webpack": "^1.10.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-plumber": "^1.0.0",
+    "gulp-util": "^3.0.4",
+    "tape": "^4.0.0",
+    "through2": "^0.6.5"
+  },
+  "keywords": [
+    "jsx",
+    "mithril"
+  ],
+  "author": "Sven A Robbestad <robbestad@gmail.com> (https://github.com/svenanders)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/svenanders/universal-jsx.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "scripts": {
+    "test": "node test/tests.js"
+  },
+  "bin": {
+    "universal-jsx": "./bin/universal-jsx"
+  }
+}
